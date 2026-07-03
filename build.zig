@@ -187,6 +187,11 @@ pub fn build(b: *std.Build) !void {
             .desc = "Demonstrates various flags used during and after window creation",
         },
         .{
+            .name = "input_gamepad",
+            .path = "examples/core/input_gamepad.zig",
+            .desc = "Demonstrates gamepad input",
+        },
+        .{
             .name = "gui_message_box",
             .path = "examples/gui/message_box.zig",
             .desc = "Demonstrates showing and hiding a message box",
