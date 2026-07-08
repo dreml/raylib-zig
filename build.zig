@@ -187,6 +187,11 @@ pub fn build(b: *std.Build) !void {
             .desc = "Demonstrates various flags used during and after window creation",
         },
         .{
+            .name = "automation_events",
+            .path = "examples/core/automation_events.zig",
+            .desc = "Demonstrates work with automation events",
+        },
+        .{
             .name = "gui_message_box",
             .path = "examples/gui/message_box.zig",
             .desc = "Demonstrates showing and hiding a message box",
