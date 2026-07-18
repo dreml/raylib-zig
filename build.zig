@@ -192,6 +192,11 @@ pub fn build(b: *std.Build) !void {
             .desc = "Demonstrates work with automation events",
         },
         .{
+            .name = "input_gamepad",
+            .path = "examples/core/input_gamepad.zig",
+            .desc = "Demonstrates gamepad input",
+        },
+        .{
             .name = "gui_message_box",
             .path = "examples/gui/message_box.zig",
             .desc = "Demonstrates showing and hiding a message box",
